@@ -36,7 +36,7 @@ dependencies {
     testImplementation(libs.junit)
 
     //    implementation(libs.annotations)
-    implementation("org.jfree:jfreechart:1.5.5")
+    implementation("org.jfree:jfreechart:1.5.6")
     //implementation("com.android.tools.ddmlib:ddmlib:23.4.0")
     implementation(kotlin("stdlib"))
     implementation ("com.google.guava:guava:31.1-jre")

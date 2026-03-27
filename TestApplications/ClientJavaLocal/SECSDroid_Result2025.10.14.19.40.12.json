@@ -1,0 +1,122 @@
+{
+  "barChart": [
+    {
+      "columnKey": "onCreate",
+      "value": 1,
+      "rowKey": "onCreate"
+    },
+    {
+      "columnKey": "setContentView",
+      "value": 1,
+      "rowKey": "setContentView"
+    },
+    {
+      "columnKey": "findViewById",
+      "value": 5,
+      "rowKey": "findViewById"
+    },
+    {
+      "columnKey": "getIntExtra",
+      "value": 1,
+      "rowKey": "getIntExtra"
+    },
+    {
+      "columnKey": "i",
+      "value": 2,
+      "rowKey": "i"
+    },
+    {
+      "columnKey": "e",
+      "value": 2,
+      "rowKey": "e"
+    },
+    {
+      "columnKey": "setText",
+      "value": 2,
+      "rowKey": "setText"
+    },
+    {
+      "columnKey": "getText",
+      "value": 2,
+      "rowKey": "getText"
+    },
+    {
+      "columnKey": "create",
+      "value": 1,
+      "rowKey": "create"
+    }
+  ],
+  "lineGraph": [
+    {
+      "time": "Oct 14, 2025, 6:26:34 PM",
+      "value": 0.0
+    },
+    {
+      "time": "Oct 14, 2025, 7:39:58 PM",
+      "value": 78.0
+    },
+    {
+      "time": "Oct 14, 2025, 7:39:59 PM",
+      "value": 78.0
+    },
+    {
+      "time": "Oct 14, 2025, 7:40:00 PM",
+      "value": 78.0
+    },
+    {
+      "time": "Oct 14, 2025, 7:40:01 PM",
+      "value": 78.0
+    },
+    {
+      "time": "Oct 14, 2025, 7:40:02 PM",
+      "value": 78.0
+    },
+    {
+      "time": "Oct 14, 2025, 7:40:03 PM",
+      "value": 77.9970272179962
+    },
+    {
+      "time": "Oct 14, 2025, 7:40:04 PM",
+      "value": 77.99551085965346
+    },
+    {
+      "time": "Oct 14, 2025, 7:40:05 PM",
+      "value": 77.99399449473542
+    },
+    {
+      "time": "Oct 14, 2025, 7:40:06 PM",
+      "value": 77.99247811993388
+    },
+    {
+      "time": "Oct 14, 2025, 7:40:07 PM",
+      "value": 77.9909617418817
+    },
+    {
+      "time": "Oct 14, 2025, 7:40:08 PM",
+      "value": 77.99018235898946
+    },
+    {
+      "time": "Oct 14, 2025, 7:40:09 PM",
+      "value": 77.9886659672358
+    },
+    {
+      "time": "Oct 14, 2025, 7:40:10 PM",
+      "value": 77.98788657560387
+    },
+    {
+      "time": "Oct 14, 2025, 7:40:11 PM",
+      "value": 77.98637017713347
+    }
+  ],
+  "text": "\nonCreate,MainActivity.java,46\nsetContentView,MainActivity.java,48\nfindViewById,MainActivity.java,51\nfindViewById,MainActivity.java,54\nfindViewById,MainActivity.java,56\nfindViewById,MainActivity.java,59\nfindViewById,MainActivity.java,61\ngetIntExtra,MainActivity.java,175\ni,LogUtil.java,17\ne,LogUtil.java,31\ni,LogUtil.java,17\ne,LogUtil.java,31\nsetText,MainActivity.java,80\ngetText,MainActivity.java,94\ncreate,MainActivity.java,96\nsetText,MainActivity.java,106\ngetText,MainActivity.java,119",
+  "table": [
+    "[MainActivity, onCreate, 1.28057E-10, 6.001089208655798E-5]",
+    "[MainActivity, getBatteryLevel, 1.67638E-10, 5.6114275576356526E-5]",
+    "[LogUtil, writeLogToFile, 3.52E-10, 1.3757416951157593E-4]",
+    "[LogUtil, logInfo, 3.52E-10, 8.612914615108813E-4]",
+    "[MainActivity, getBatteryLevelAtStart, 0.0, 0.0011539393029519765]",
+    "[MainActivity, sendGetRequest, 3.49246E-9, 8.946581371587696E-5]",
+    "[MainActivity, sendPostRequest, 6.98492E-9, 4.6763080415873815E-5]",
+    "[MainActivity, getPicture, 3.49246E-9, 4.9101783367790743E-5]"
+  ]
+}

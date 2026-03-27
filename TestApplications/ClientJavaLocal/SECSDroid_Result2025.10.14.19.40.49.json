@@ -1,0 +1,71 @@
+{
+  "barChart": [
+    {
+      "columnKey": "onCreate",
+      "value": 1,
+      "rowKey": "onCreate"
+    },
+    {
+      "columnKey": "setContentView",
+      "value": 1,
+      "rowKey": "setContentView"
+    },
+    {
+      "columnKey": "findViewById",
+      "value": 5,
+      "rowKey": "findViewById"
+    },
+    {
+      "columnKey": "getIntExtra",
+      "value": 1,
+      "rowKey": "getIntExtra"
+    },
+    {
+      "columnKey": "i",
+      "value": 2,
+      "rowKey": "i"
+    },
+    {
+      "columnKey": "e",
+      "value": 2,
+      "rowKey": "e"
+    }
+  ],
+  "lineGraph": [
+    {
+      "time": "Oct 14, 2025, 7:40:12 PM",
+      "value": 0.0
+    },
+    {
+      "time": "Oct 14, 2025, 7:40:43 PM",
+      "value": 78.0
+    },
+    {
+      "time": "Oct 14, 2025, 7:40:45 PM",
+      "value": 78.0
+    },
+    {
+      "time": "Oct 14, 2025, 7:40:46 PM",
+      "value": 78.0
+    },
+    {
+      "time": "Oct 14, 2025, 7:40:47 PM",
+      "value": 78.0
+    },
+    {
+      "time": "Oct 14, 2025, 7:40:48 PM",
+      "value": 77.9970272179962
+    },
+    {
+      "time": "Oct 14, 2025, 7:40:49 PM",
+      "value": 77.99551085965346
+    }
+  ],
+  "text": "\nonCreate,MainActivity.java,46\nsetContentView,MainActivity.java,48\nfindViewById,MainActivity.java,51\nfindViewById,MainActivity.java,54\nfindViewById,MainActivity.java,56\nfindViewById,MainActivity.java,59\nfindViewById,MainActivity.java,61\ngetIntExtra,MainActivity.java,175\ni,LogUtil.java,17\ne,LogUtil.java,31\ni,LogUtil.java,17\ne,LogUtil.java,31",
+  "table": [
+    "[MainActivity, onCreate, 1.28057E-10, 5.923152985166762E-5]",
+    "[MainActivity, getBatteryLevel, 1.67638E-10, 9.098137438530083E-5]",
+    "[LogUtil, writeLogToFile, 3.52E-10, 8.651013899488676E-5]",
+    "[LogUtil, logInfo, 3.52E-10, 4.294332500487675E-4]"
+  ]
+}

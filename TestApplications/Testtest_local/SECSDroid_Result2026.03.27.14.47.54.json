@@ -1,0 +1,195 @@
+{
+  "barChart": [
+    {
+      "columnKey": "onCreate",
+      "value": 5,
+      "rowKey": "onCreate"
+    },
+    {
+      "columnKey": "setContentView",
+      "value": 5,
+      "rowKey": "setContentView"
+    },
+    {
+      "columnKey": "findViewById",
+      "value": 11,
+      "rowKey": "findViewById"
+    },
+    {
+      "columnKey": "getIntExtra",
+      "value": 1,
+      "rowKey": "getIntExtra"
+    },
+    {
+      "columnKey": "i",
+      "value": 2,
+      "rowKey": "i"
+    },
+    {
+      "columnKey": "e",
+      "value": 2,
+      "rowKey": "e"
+    },
+    {
+      "columnKey": "d",
+      "value": 4,
+      "rowKey": "d"
+    },
+    {
+      "columnKey": "getText",
+      "value": 8,
+      "rowKey": "getText"
+    },
+    {
+      "columnKey": "putExtra",
+      "value": 8,
+      "rowKey": "putExtra"
+    },
+    {
+      "columnKey": "startActivityForResult",
+      "value": 4,
+      "rowKey": "startActivityForResult"
+    },
+    {
+      "columnKey": "getStringExtra",
+      "value": 8,
+      "rowKey": "getStringExtra"
+    },
+    {
+      "columnKey": "setText",
+      "value": 8,
+      "rowKey": "setText"
+    },
+    {
+      "columnKey": "finish",
+      "value": 4,
+      "rowKey": "finish"
+    }
+  ],
+  "lineGraph": [
+    {
+      "time": "Mar 27, 2026, 2:46:58 PM",
+      "value": 0.0
+    },
+    {
+      "time": "Mar 27, 2026, 2:47:16 PM",
+      "value": 100.0
+    },
+    {
+      "time": "Mar 27, 2026, 2:47:21 PM",
+      "value": 99.99830479643995
+    },
+    {
+      "time": "Mar 27, 2026, 2:47:25 PM",
+      "value": 99.99598461289871
+    },
+    {
+      "time": "Mar 27, 2026, 2:47:26 PM",
+      "value": 99.99476605395947
+    },
+    {
+      "time": "Mar 27, 2026, 2:47:28 PM",
+      "value": 99.99354749257604
+    },
+    {
+      "time": "Mar 27, 2026, 2:47:29 PM",
+      "value": 99.98989179491484
+    },
+    {
+      "time": "Mar 27, 2026, 2:47:30 PM",
+      "value": 99.98623607675566
+    },
+    {
+      "time": "Mar 27, 2026, 2:47:31 PM",
+      "value": 99.98460534499027
+    },
+    {
+      "time": "Mar 27, 2026, 2:47:32 PM",
+      "value": 99.97893739651421
+    },
+    {
+      "time": "Mar 27, 2026, 2:47:33 PM",
+      "value": 99.97324725747875
+    },
+    {
+      "time": "Mar 27, 2026, 2:47:34 PM",
+      "value": 99.97202865602036
+    },
+    {
+      "time": "Mar 27, 2026, 2:47:35 PM",
+      "value": 99.97042004425836
+    },
+    {
+      "time": "Mar 27, 2026, 2:47:36 PM",
+      "value": 99.9685033799595
+    },
+    {
+      "time": "Mar 27, 2026, 2:47:37 PM",
+      "value": 99.96658671001555
+    },
+    {
+      "time": "Mar 27, 2026, 2:47:38 PM",
+      "value": 99.96536809608568
+    },
+    {
+      "time": "Mar 27, 2026, 2:47:39 PM",
+      "value": 99.96333372082563
+    },
+    {
+      "time": "Mar 27, 2026, 2:47:41 PM",
+      "value": 99.96089647849526
+    },
+    {
+      "time": "Mar 27, 2026, 2:47:42 PM",
+      "value": 99.95967785390496
+    },
+    {
+      "time": "Mar 27, 2026, 2:47:43 PM",
+      "value": 99.95806921900774
+    },
+    {
+      "time": "Mar 27, 2026, 2:47:44 PM",
+      "value": 99.9568505891187
+    },
+    {
+      "time": "Mar 27, 2026, 2:47:45 PM",
+      "value": 99.9549338848336
+    },
+    {
+      "time": "Mar 27, 2026, 2:47:47 PM",
+      "value": 99.95301717489652
+    },
+    {
+      "time": "Mar 27, 2026, 2:47:48 PM",
+      "value": 99.95028469938084
+    },
+    {
+      "time": "Mar 27, 2026, 2:47:50 PM",
+      "value": 99.94593067728243
+    },
+    {
+      "time": "Mar 27, 2026, 2:47:51 PM",
+      "value": 99.94362393234067
+    },
+    {
+      "time": "Mar 27, 2026, 2:47:52 PM",
+      "value": 99.9424052753582
+    },
+    {
+      "time": "Mar 27, 2026, 2:47:53 PM",
+      "value": 99.94118661608846
+    }
+  ],
+  "text": "\nonCreate,MainActivity.java,39\nsetContentView,MainActivity.java,41\nfindViewById,MainActivity.java,45\nfindViewById,MainActivity.java,47\nfindViewById,MainActivity.java,49\ngetIntExtra,MainActivity.java,131\ni,LogUtil.java,17\ne,LogUtil.java,30\ni,LogUtil.java,17\ne,LogUtil.java,30\nd,MainActivity.java,65\ngetText,MainActivity.java,69\nputExtra,MainActivity.java,72\nstartActivityForResult,MainActivity.java,75\nonCreate,SecondActivity.java,31\nsetContentView,SecondActivity.java,33\nfindViewById,SecondActivity.java,37\ngetStringExtra,SecondActivity.java,43\nfindViewById,SecondActivity.java,47\nsetText,SecondActivity.java,51\ngetText,SecondActivity.java,67\nputExtra,SecondActivity.java,73\nfinish,SecondActivity.java,79\ngetStringExtra,MainActivity.java,95\nsetText,MainActivity.java,102\nd,MainActivity.java,65\ngetText,MainActivity.java,69\nputExtra,MainActivity.java,72\nstartActivityForResult,MainActivity.java,75\nonCreate,SecondActivity.java,31\nsetContentView,SecondActivity.java,33\nfindViewById,SecondActivity.java,37\ngetStringExtra,SecondActivity.java,43\nfindViewById,SecondActivity.java,47\nsetText,SecondActivity.java,51\ngetText,SecondActivity.java,67\nputExtra,SecondActivity.java,73\nfinish,SecondActivity.java,79\ngetStringExtra,MainActivity.java,95\nsetText,MainActivity.java,102\nd,MainActivity.java,65\ngetText,MainActivity.java,69\nputExtra,MainActivity.java,72\nstartActivityForResult,MainActivity.java,75\nonCreate,SecondActivity.java,31\nsetContentView,SecondActivity.java,33\nfindViewById,SecondActivity.java,37\ngetStringExtra,SecondActivity.java,43\nfindViewById,SecondActivity.java,47\nsetText,SecondActivity.java,51\ngetText,SecondActivity.java,67\nputExtra,SecondActivity.java,73\nfinish,SecondActivity.java,79\ngetStringExtra,MainActivity.java,95\nsetText,MainActivity.java,102\nd,MainActivity.java,65\ngetText,MainActivity.java,69\nputExtra,MainActivity.java,72\nstartActivityForResult,MainActivity.java,75\nonCreate,SecondActivity.java,31\nsetContentView,SecondActivity.java,33\nfindViewById,SecondActivity.java,37\ngetStringExtra,SecondActivity.java,43\nfindViewById,SecondActivity.java,47\nsetText,SecondActivity.java,51\ngetText,SecondActivity.java,67\nputExtra,SecondActivity.java,73\nfinish,SecondActivity.java,79\ngetStringExtra,MainActivity.java,95\nsetText,MainActivity.java,102",
+  "table": [
+    "[MainActivity, onCreate, 7.68342E-11, 0.0013281877908255704]",
+    "[MainActivity, getBatteryLevel, 1.67638E-10, 5.434772869002357E-4]",
+    "[LogUtil, writeLogToFile, 3.52E-10, 5.995336027054878E-4]",
+    "[LogUtil, logInfo, 3.52E-10, 0.0024773411744713546]",
+    "[MainActivity, getBatteryLevelAtStart, 0.0, 0.003089046910968829]",
+    "[MainActivity, launchSecondActivity, 0.0016486, 3.7654931782366284E-4]",
+    "[SecondActivity, onCreate, 1.396984E-8, 8.674034825228882E-4]",
+    "[SecondActivity, returnReply, 0.00156, 3.2537084211403607E-4]",
+    "[MainActivity, onActivityResult, 1.396984E-8, 3.204963233511381E-4]"
+  ]
+}

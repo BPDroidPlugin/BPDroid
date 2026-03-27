@@ -1,0 +1,139 @@
+{
+  "barChart": [
+    {
+      "columnKey": "onCreate",
+      "value": 3,
+      "rowKey": "onCreate"
+    },
+    {
+      "columnKey": "setContentView",
+      "value": 3,
+      "rowKey": "setContentView"
+    },
+    {
+      "columnKey": "findViewById",
+      "value": 7,
+      "rowKey": "findViewById"
+    },
+    {
+      "columnKey": "getIntExtra",
+      "value": 1,
+      "rowKey": "getIntExtra"
+    },
+    {
+      "columnKey": "i",
+      "value": 2,
+      "rowKey": "i"
+    },
+    {
+      "columnKey": "e",
+      "value": 2,
+      "rowKey": "e"
+    },
+    {
+      "columnKey": "d",
+      "value": 2,
+      "rowKey": "d"
+    },
+    {
+      "columnKey": "getText",
+      "value": 3,
+      "rowKey": "getText"
+    },
+    {
+      "columnKey": "putExtra",
+      "value": 3,
+      "rowKey": "putExtra"
+    },
+    {
+      "columnKey": "startActivityForResult",
+      "value": 2,
+      "rowKey": "startActivityForResult"
+    },
+    {
+      "columnKey": "getStringExtra",
+      "value": 3,
+      "rowKey": "getStringExtra"
+    },
+    {
+      "columnKey": "setText",
+      "value": 3,
+      "rowKey": "setText"
+    },
+    {
+      "columnKey": "finish",
+      "value": 1,
+      "rowKey": "finish"
+    }
+  ],
+  "lineGraph": [
+    {
+      "time": "Mar 27, 2026, 2:46:26 PM",
+      "value": -0.001493893940722006
+    },
+    {
+      "time": "Mar 27, 2026, 2:46:43 PM",
+      "value": 99.99708624183464
+    },
+    {
+      "time": "Mar 27, 2026, 2:46:44 PM",
+      "value": 99.99546408412253
+    },
+    {
+      "time": "Mar 27, 2026, 2:46:45 PM",
+      "value": 99.99232892983717
+    },
+    {
+      "time": "Mar 27, 2026, 2:46:46 PM",
+      "value": 99.9891937602945
+    },
+    {
+      "time": "Mar 27, 2026, 2:46:47 PM",
+      "value": 99.98797518866523
+    },
+    {
+      "time": "Mar 27, 2026, 2:46:48 PM",
+      "value": 99.98362141841493
+    },
+    {
+      "time": "Mar 27, 2026, 2:46:49 PM",
+      "value": 99.97845185721047
+    },
+    {
+      "time": "Mar 27, 2026, 2:46:50 PM",
+      "value": 99.97614521174921
+    },
+    {
+      "time": "Mar 27, 2026, 2:46:51 PM",
+      "value": 99.97422856067466
+    },
+    {
+      "time": "Mar 27, 2026, 2:46:52 PM",
+      "value": 99.9730099610531
+    },
+    {
+      "time": "Mar 27, 2026, 2:46:53 PM",
+      "value": 99.97179135915052
+    },
+    {
+      "time": "Mar 27, 2026, 2:46:54 PM",
+      "value": 99.97027754598638
+    },
+    {
+      "time": "Mar 27, 2026, 2:46:56 PM",
+      "value": 99.96736365491178
+    }
+  ],
+  "text": "\nonCreate,MainActivity.java,39\nsetContentView,MainActivity.java,41\nfindViewById,MainActivity.java,45\nfindViewById,MainActivity.java,47\nfindViewById,MainActivity.java,49\ngetIntExtra,MainActivity.java,131\ni,LogUtil.java,17\ne,LogUtil.java,30\ni,LogUtil.java,17\ne,LogUtil.java,30\nd,MainActivity.java,65\ngetText,MainActivity.java,69\nputExtra,MainActivity.java,72\nstartActivityForResult,MainActivity.java,75\nonCreate,SecondActivity.java,31\nsetContentView,SecondActivity.java,33\nfindViewById,SecondActivity.java,37\ngetStringExtra,SecondActivity.java,43\nfindViewById,SecondActivity.java,47\nsetText,SecondActivity.java,51\ngetText,SecondActivity.java,67\nputExtra,SecondActivity.java,73\nfinish,SecondActivity.java,79\ngetStringExtra,MainActivity.java,95\nsetText,MainActivity.java,102\nd,MainActivity.java,65\ngetText,MainActivity.java,69\nputExtra,MainActivity.java,72\nstartActivityForResult,MainActivity.java,75\nonCreate,SecondActivity.java,31\nsetContentView,SecondActivity.java,33\nfindViewById,SecondActivity.java,37\ngetStringExtra,SecondActivity.java,43\nfindViewById,SecondActivity.java,47\nsetText,SecondActivity.java,51",
+  "table": [
+    "[MainActivity, onCreate, 7.68342E-11, 7.360050693324728E-4]",
+    "[MainActivity, getBatteryLevel, 1.67638E-10, 9.314627180238877E-4]",
+    "[LogUtil, writeLogToFile, 3.52E-10, 6.435364722397182E-4]",
+    "[LogUtil, logInfo, 3.52E-10, 0.0015121994865646255]",
+    "[MainActivity, getBatteryLevelAtStart, 0.0, 0.0043142491700767175]",
+    "[MainActivity, launchSecondActivity, 8.243E-4, 5.800531356606067E-4]",
+    "[SecondActivity, onCreate, 6.98492E-9, 2.9132977457351557E-4]",
+    "[SecondActivity, returnReply, 3.9E-4, 9.261279730920969E-5]",
+    "[MainActivity, onActivityResult, 3.49246E-9, 1.0924844703640912E-4]"
+  ]
+}

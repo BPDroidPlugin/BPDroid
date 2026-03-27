@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/txtUserData"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/insert_data_txt"
+        app:layout_constraintBottom_toTopOf="@+id/txtPicNumber"
+        app:layout_constraintEnd_toStartOf="@+id/editTextUserData"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/editTextUserData"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="text"
+        app:layout_constraintBottom_toTopOf="@+id/editTextPicNumber"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.542"
+        app:layout_constraintStart_toEndOf="@+id/txtUserData"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/txtPostResult"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/post_result_txt"
+        app:layout_constraintBottom_toTopOf="@+id/txtGetResult"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextPicNumber" />
+
+    <ImageView
+        android:id="@+id/imageViewPicture"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toTopOf="@+id/btnSendGet"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtGetResult"
+        tools:srcCompat="@tools:sample/avatars" />
+
+    <TextView
+        android:id="@+id/txtGetResult"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/get_result_txt"
+        app:layout_constraintBottom_toTopOf="@+id/imageViewPicture"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtPostResult" />
+
+    <Button
+        android:id="@+id/btnSendGet"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="sendGetRequest"
+        android:text="@string/send_get_txt"
+        app:layout_constraintBottom_toTopOf="@+id/btnBatteryStart"
+        app:layout_constraintEnd_toStartOf="@+id/btnSendData"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageViewPicture" />
+
+    <Button
+        android:id="@+id/btnSendData"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="sendPostRequest"
+        android:text="@string/send_data_txt"
+        app:layout_constraintBottom_toTopOf="@+id/btnClearImage"
+        app:layout_constraintEnd_toStartOf="@+id/btnGetPic"
+        app:layout_constraintStart_toEndOf="@+id/btnSendGet"
+        app:layout_constraintTop_toBottomOf="@+id/imageViewPicture" />
+
+    <Button
+        android:id="@+id/btnGetPic"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="getPicture"
+        android:text="@string/get_pic_txt"
+        app:layout_constraintBottom_toTopOf="@+id/btnBatteryEnd"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/btnSendData"
+        app:layout_constraintTop_toBottomOf="@+id/imageViewPicture" />
+
+    <Button
+        android:id="@+id/btnBatteryStart"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="getBatteryLevelAtStart"
+        android:text="@string/battery_at_start_txt"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/btnClearImage"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnSendGet" />
+
+    <Button
+        android:id="@+id/btnBatteryEnd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="getBatteryLevelAtEnd"
+        android:text="@string/battery_at_end_txt"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/btnClearImage"
+        app:layout_constraintTop_toBottomOf="@+id/btnGetPic" />
+
+    <Button
+        android:id="@+id/btnClearImage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="clearResults"
+        android:text="@string/clear_image_text"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/btnBatteryEnd"
+        app:layout_constraintStart_toEndOf="@+id/btnBatteryStart"
+        app:layout_constraintTop_toBottomOf="@+id/btnSendData" />
+
+    <TextView
+        android:id="@+id/txtPicNumber"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/pic_number_text"
+        app:layout_constraintBottom_toTopOf="@+id/txtPostResult"
+        app:layout_constraintEnd_toStartOf="@+id/editTextPicNumber"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtUserData" />
+
+    <EditText
+        android:id="@+id/editTextPicNumber"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="text"
+        app:layout_constraintBottom_toTopOf="@+id/txtPostResult"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/txtPicNumber"
+        app:layout_constraintTop_toBottomOf="@+id/editTextUserData" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

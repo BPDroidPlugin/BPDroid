@@ -1,0 +1,52 @@
+<!-- Plugin Configuration File. Read more: https://plugins.jetbrains.com/docs/intellij/plugin-configuration-file.html -->
+<idea-plugin>
+    <id>com.github.lylanv.secdroid</id>
+    <name>SECDroid</name>
+    <vendor>lylanv</vendor>
+
+    <depends>com.intellij.modules.platform</depends>
+    <depends>org.jetbrains.android</depends>
+    <depends>com.android.tools.idea.smali</depends>
+    <depends>com.intellij.modules.java-capable</depends>
+    <depends>com.intellij.modules.androidstudio</depends>
+    <depends>com.android.tools.design</depends>
+    <depends>com.intellij.modules.java</depends>
+
+
+    <resource-bundle>messages.MyBundle</resource-bundle>
+
+    <extensions defaultExtensionNs="com.intellij">
+<!--        <toolWindow factoryClass="com.github.lylanv.secdroid.toolWindow.MyToolWindowFactory" id="MyToolWindow"/>-->
+        <toolWindow factoryClass="com.github.lylanv.secdroid.toolWindows.LogcatAnalyzerToolWindowFactory" id="TestingToolWindow" anchor="left"/>
+    </extensions>
+
+
+    <actions>
+        <group
+                id="EnergyActionGroup"
+                description="Energy action group">
+            <action
+                    id="com.github.lylanv.secdroid.actions.DroidEC"
+                    class="com.github.lylanv.secdroid.actions.DroidEC"
+                    text="BCProf Log"
+                    description="Energy profiler button">
+<!--                <add-to-group group-id="RunMenu" anchor="first"/>-->
+            </action>
+            <!--add-to-group group-id="ToolsMenu" anchor="first"/-->
+
+            <action
+                    id="com.github.lylanv.secdroid.actions.runButton"
+                    class="com.github.lylanv.secdroid.actions.runButton"
+                    text="BCProf Run"/>
+                <separator/>
+                <add-to-group group-id="RunMenu" anchor="first"/>
+<!--            </action>-->
+        </group>
+    </actions>
+
+    <applicationListeners>
+        <listener class="com.github.lylanv.secdroid.listeners.MyApplicationActivationListener" topic="com.intellij.openapi.application.ApplicationActivationListener"/>
+        <listener class="com.github.lylanv.secdroid.listeners.AndroidProjectBuildListener" topic="com.android.tools.idea.projectsystem.ProjectSystemBuildManager$BuildListener"/>
+        <listener class="com.github.lylanv.secdroid.listeners.AndroidProjectExecutionListener" topic="com.intellij.execution.ExecutionListener"/>
+    </applicationListeners>
+</idea-plugin>

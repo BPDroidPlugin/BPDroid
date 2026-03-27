@@ -1,0 +1,11 @@
+.gradle
+.idea
+.intellijPlatform
+.qodana
+build
+
+#I added to ignore
+#these are heap dumps files to analyze memory problems in the code
+*.hprof
+.DS_Store
+*.DS_Store

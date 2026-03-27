@@ -1,0 +1,314 @@
+{
+  "barChart": [
+    {
+      "columnKey": "onCreate",
+      "value": 7,
+      "rowKey": "onCreate"
+    },
+    {
+      "columnKey": "setContentView",
+      "value": 7,
+      "rowKey": "setContentView"
+    },
+    {
+      "columnKey": "findViewById",
+      "value": 15,
+      "rowKey": "findViewById"
+    },
+    {
+      "columnKey": "getIntExtra",
+      "value": 1,
+      "rowKey": "getIntExtra"
+    },
+    {
+      "columnKey": "i",
+      "value": 2,
+      "rowKey": "i"
+    },
+    {
+      "columnKey": "d",
+      "value": 6,
+      "rowKey": "d"
+    },
+    {
+      "columnKey": "getText",
+      "value": 11,
+      "rowKey": "getText"
+    },
+    {
+      "columnKey": "putExtra",
+      "value": 11,
+      "rowKey": "putExtra"
+    },
+    {
+      "columnKey": "startActivityForResult",
+      "value": 6,
+      "rowKey": "startActivityForResult"
+    },
+    {
+      "columnKey": "getStringExtra",
+      "value": 11,
+      "rowKey": "getStringExtra"
+    },
+    {
+      "columnKey": "setText",
+      "value": 11,
+      "rowKey": "setText"
+    },
+    {
+      "columnKey": "finish",
+      "value": 5,
+      "rowKey": "finish"
+    }
+  ],
+  "lineGraph": [
+    {
+      "time": "Jun 17, 2025, 12:15:06 PM",
+      "value": 56.0
+    },
+    {
+      "time": "Jun 17, 2025, 12:15:07 PM",
+      "value": 56.0
+    },
+    {
+      "time": "Jun 17, 2025, 12:15:08 PM",
+      "value": 56.0
+    },
+    {
+      "time": "Jun 17, 2025, 12:15:09 PM",
+      "value": 56.0
+    },
+    {
+      "time": "Jun 17, 2025, 12:15:10 PM",
+      "value": 55.9970635276861
+    },
+    {
+      "time": "Jun 17, 2025, 12:15:11 PM",
+      "value": 55.99454908588444
+    },
+    {
+      "time": "Jun 17, 2025, 12:15:12 PM",
+      "value": 55.992438214644686
+    },
+    {
+      "time": "Jun 17, 2025, 12:15:13 PM",
+      "value": 55.99032731440266
+    },
+    {
+      "time": "Jun 17, 2025, 12:15:14 PM",
+      "value": 55.98700716186104
+    },
+    {
+      "time": "Jun 17, 2025, 12:15:15 PM",
+      "value": 55.98368693716781
+    },
+    {
+      "time": "Jun 17, 2025, 12:15:16 PM",
+      "value": 55.979954477536836
+    },
+    {
+      "time": "Jun 17, 2025, 12:15:17 PM",
+      "value": 55.97623048714962
+    },
+    {
+      "time": "Jun 17, 2025, 12:15:18 PM",
+      "value": 55.974119363169585
+    },
+    {
+      "time": "Jun 17, 2025, 12:15:19 PM",
+      "value": 55.97200821003149
+    },
+    {
+      "time": "Jun 17, 2025, 12:15:20 PM",
+      "value": 55.96989702407656
+    },
+    {
+      "time": "Jun 17, 2025, 12:15:21 PM",
+      "value": 55.9673958036085
+    },
+    {
+      "time": "Jun 17, 2025, 12:15:22 PM",
+      "value": 55.965284557618894
+    },
+    {
+      "time": "Jun 17, 2025, 12:15:23 PM",
+      "value": 55.96317328247695
+    },
+    {
+      "time": "Jun 17, 2025, 12:15:24 PM",
+      "value": 55.96024620940163
+    },
+    {
+      "time": "Jun 17, 2025, 12:15:25 PM",
+      "value": 55.95813486469672
+    },
+    {
+      "time": "Jun 17, 2025, 12:15:26 PM",
+      "value": 55.95602349084409
+    },
+    {
+      "time": "Jun 17, 2025, 12:15:27 PM",
+      "value": 55.95391208784512
+    },
+    {
+      "time": "Jun 17, 2025, 12:15:28 PM",
+      "value": 55.95180065570117
+    },
+    {
+      "time": "Jun 17, 2025, 12:15:29 PM",
+      "value": 55.94929918173837
+    },
+    {
+      "time": "Jun 17, 2025, 12:15:30 PM",
+      "value": 55.94718768592584
+    },
+    {
+      "time": "Jun 17, 2025, 12:15:31 PM",
+      "value": 55.94507616097269
+    },
+    {
+      "time": "Jun 17, 2025, 12:15:32 PM",
+      "value": 55.94214883810375
+    },
+    {
+      "time": "Jun 17, 2025, 12:15:33 PM",
+      "value": 55.94003724361693
+    },
+    {
+      "time": "Jun 17, 2025, 12:15:34 PM",
+      "value": 55.937925619994125
+    },
+    {
+      "time": "Jun 17, 2025, 12:15:35 PM",
+      "value": 55.935813967236705
+    },
+    {
+      "time": "Jun 17, 2025, 12:15:36 PM",
+      "value": 55.93370228168588
+    },
+    {
+      "time": "Jun 17, 2025, 12:15:37 PM",
+      "value": 55.93120056165098
+    },
+    {
+      "time": "Jun 17, 2025, 12:15:38 PM",
+      "value": 55.92908881611798
+    },
+    {
+      "time": "Jun 17, 2025, 12:15:39 PM",
+      "value": 55.92697704145609
+    },
+    {
+      "time": "Jun 17, 2025, 12:15:40 PM",
+      "value": 55.92445307814599
+    },
+    {
+      "time": "Jun 17, 2025, 12:15:41 PM",
+      "value": 55.92193763029645
+    },
+    {
+      "time": "Jun 17, 2025, 12:15:42 PM",
+      "value": 55.91982575700603
+    },
+    {
+      "time": "Jun 17, 2025, 12:15:43 PM",
+      "value": 55.917713854592726
+    },
+    {
+      "time": "Jun 17, 2025, 12:15:44 PM",
+      "value": 55.91560191939776
+    },
+    {
+      "time": "Jun 17, 2025, 12:15:45 PM",
+      "value": 55.91309994973325
+    },
+    {
+      "time": "Jun 17, 2025, 12:15:46 PM",
+      "value": 55.91098795458238
+    },
+    {
+      "time": "Jun 17, 2025, 12:15:48 PM",
+      "value": 55.906351717412825
+    },
+    {
+      "time": "Jun 17, 2025, 12:15:49 PM",
+      "value": 55.90383601998649
+    },
+    {
+      "time": "Jun 17, 2025, 12:15:50 PM",
+      "value": 55.90172389713103
+    },
+    {
+      "time": "Jun 17, 2025, 12:15:51 PM",
+      "value": 55.89961174516442
+    },
+    {
+      "time": "Jun 17, 2025, 12:15:52 PM",
+      "value": 55.89961174516442
+    },
+    {
+      "time": "Jun 17, 2025, 12:15:53 PM",
+      "value": 55.897109551420876
+    },
+    {
+      "time": "Jun 17, 2025, 12:15:54 PM",
+      "value": 55.89499733586144
+    },
+    {
+      "time": "Jun 17, 2025, 12:15:55 PM",
+      "value": 55.892885091195225
+    },
+    {
+      "time": "Jun 17, 2025, 12:15:56 PM",
+      "value": 55.8907728174236
+    },
+    {
+      "time": "Jun 17, 2025, 12:15:57 PM",
+      "value": 55.88784474578899
+    },
+    {
+      "time": "Jun 17, 2025, 12:15:58 PM",
+      "value": 55.885732402571726
+    },
+    {
+      "time": "Jun 17, 2025, 12:15:59 PM",
+      "value": 55.88452236932899
+    },
+    {
+      "time": "Jun 17, 2025, 12:16:00 PM",
+      "value": 55.88452236932899
+    },
+    {
+      "time": "Jun 17, 2025, 12:16:01 PM",
+      "value": 55.88452236932899
+    },
+    {
+      "time": "Jun 17, 2025, 12:16:02 PM",
+      "value": 55.88452236932899
+    },
+    {
+      "time": "Jun 17, 2025, 12:16:03 PM",
+      "value": 55.88452236932899
+    },
+    {
+      "time": "Jun 17, 2025, 12:16:04 PM",
+      "value": 55.88331232653758
+    },
+    {
+      "time": "Jun 17, 2025, 12:16:05 PM",
+      "value": 55.88331232653758
+    }
+  ],
+  "text": "\nonCreate,MainActivity.java,39\nsetContentView,MainActivity.java,41\nfindViewById,MainActivity.java,45\nfindViewById,MainActivity.java,47\nfindViewById,MainActivity.java,49\ngetIntExtra,MainActivity.java,132\ni,LogUtil.java,17\ni,LogUtil.java,17\nd,MainActivity.java,66\ngetText,MainActivity.java,70\nputExtra,MainActivity.java,73\nstartActivityForResult,MainActivity.java,76\nonCreate,SecondActivity.java,31\nsetContentView,SecondActivity.java,33\nfindViewById,SecondActivity.java,37\ngetStringExtra,SecondActivity.java,43\nfindViewById,SecondActivity.java,47\nsetText,SecondActivity.java,51\ngetText,SecondActivity.java,67\nputExtra,SecondActivity.java,73\nfinish,SecondActivity.java,79\ngetStringExtra,MainActivity.java,96\nsetText,MainActivity.java,103\nd,MainActivity.java,66\ngetText,MainActivity.java,70\nputExtra,MainActivity.java,73\nstartActivityForResult,MainActivity.java,76\nonCreate,SecondActivity.java,31\nsetContentView,SecondActivity.java,33\nfindViewById,SecondActivity.java,37\ngetStringExtra,SecondActivity.java,43\nfindViewById,SecondActivity.java,47\nsetText,SecondActivity.java,51\ngetText,SecondActivity.java,67\nputExtra,SecondActivity.java,73\nfinish,SecondActivity.java,79\ngetStringExtra,MainActivity.java,96\nsetText,MainActivity.java,103\nd,MainActivity.java,66\ngetText,MainActivity.java,70\nputExtra,MainActivity.java,73\nstartActivityForResult,MainActivity.java,76\nonCreate,SecondActivity.java,31\nsetContentView,SecondActivity.java,33\nfindViewById,SecondActivity.java,37\ngetStringExtra,SecondActivity.java,43\nfindViewById,SecondActivity.java,47\nsetText,SecondActivity.java,51\ngetText,SecondActivity.java,67\nputExtra,SecondActivity.java,73\nfinish,SecondActivity.java,79\ngetStringExtra,MainActivity.java,96\nsetText,MainActivity.java,103\nd,MainActivity.java,66\ngetText,MainActivity.java,70\nputExtra,MainActivity.java,73\nstartActivityForResult,MainActivity.java,76\nonCreate,SecondActivity.java,31\nsetContentView,SecondActivity.java,33\nfindViewById,SecondActivity.java,37\ngetStringExtra,SecondActivity.java,43\nfindViewById,SecondActivity.java,47\nsetText,SecondActivity.java,51\ngetText,SecondActivity.java,67\nputExtra,SecondActivity.java,73\nfinish,SecondActivity.java,79\ngetStringExtra,MainActivity.java,96\nsetText,MainActivity.java,103\nd,MainActivity.java,66\ngetText,MainActivity.java,70\nputExtra,MainActivity.java,73\nstartActivityForResult,MainActivity.java,76\nonCreate,SecondActivity.java,31\nsetContentView,SecondActivity.java,33\nfindViewById,SecondActivity.java,37\ngetStringExtra,SecondActivity.java,43\nfindViewById,SecondActivity.java,47\nsetText,SecondActivity.java,51\ngetText,SecondActivity.java,67\nputExtra,SecondActivity.java,73\nfinish,SecondActivity.java,79\ngetStringExtra,MainActivity.java,96\nsetText,MainActivity.java,103\nd,MainActivity.java,66\ngetText,MainActivity.java,70\nputExtra,MainActivity.java,73\nstartActivityForResult,MainActivity.java,76\nonCreate,SecondActivity.java,31\nsetContentView,SecondActivity.java,33\nfindViewById,SecondActivity.java,37\ngetStringExtra,SecondActivity.java,43\nfindViewById,SecondActivity.java,47\nsetText,SecondActivity.java,51",
+  "table": [
+    "[MainActivity, onCreate, 7.68342E-11, 2.912897875972016E-4]",
+    "[MainActivity, getBatteryLevel, 1.67638E-10, 1.3931747914284386E-4]",
+    "[LogUtil, writeLogToFile, 3.52E-10, 2.2586464437881733E-4]",
+    "[LogUtil, logInfo, 3.52E-10, 0.0011673190438735255]",
+    "[MainActivity, getBatteryLevelAtStart, 0.0, 0.0016021510101427044]",
+    "[MainActivity, launchSecondActivity, 0.0024729, 0.002712574668613679]",
+    "[SecondActivity, onCreate, 2.095476E-8, 8.520832967772211E-4]",
+    "[SecondActivity, returnReply, 0.00195, 7.771003946627313E-4]",
+    "[MainActivity, onActivityResult, 1.74623E-8, 6.504013256242026E-4]"
+  ]
+}

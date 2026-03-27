@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">ClientJava</string>
+    <string name="battery_at_end_txt">BL End</string>
+    <string name="battery_at_start_txt">BL Start</string>
+    <string name="get_pic_txt">Get Pic</string>
+    <string name="send_data_txt">Send Data</string>
+    <string name="send_get_txt">Send Get</string>
+    <string name="get_result_txt">Get Result:</string>
+    <string name="post_result_txt">Post Result:</string>
+    <string name="insert_data_txt">Insert Data:</string>
+    <string name="clear_image_text">Clear Image</string>
+    <string name="pic_number_text">Pic Number:</string>
+</resources>
